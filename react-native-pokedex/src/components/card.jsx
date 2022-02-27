@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Image } from "react-native";
 import { useFonts } from "expo-font";
 
 
-const Card = () => {
+const Card = (props) => {
   const [loaded] = useFonts({
     Montserrat: require('./assets/fonts/Montserrat.ttf'),
   });
@@ -12,10 +12,14 @@ const Card = () => {
     return null;
   }
 
+  const setStyles = (type) => {
+    return styles[type]
+  }
+
   return (
-    <View style={styles.card, styles.fighting}>
+    <View style={styles.card, setStyles(props.type)}>
       <View style={styles.container}>
-        <Text style={styles.text}>Torchic</Text>
+        <Text style={styles.text}>props.pokemon</Text>
         <View style={styles.container}>
         <Image style={styles.sprite} source={require('../../assets/zoroark.png')}/>
         </View>
