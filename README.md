@@ -8,6 +8,7 @@
 4. npm start
 
 
+
 ## Django API Installation
 1. cd pokedex-api/api
 2. python3 -m venv env
