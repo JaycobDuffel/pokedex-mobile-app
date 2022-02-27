@@ -5,12 +5,12 @@ import { View, Text, StyleSheet, Image } from "react-native";
 const Card = () => {
 
   return (
-    <View style={styles.card, styles.round}>
+    <View style={styles.card, styles.water}>
       <View style={styles.container}>
-        <Image style={styles.sprite} source={require('../../assets/breloom.png')}/>
-        <Text style={styles.text}>Breloom</Text>
-        <Text style={styles.text}>#238</Text>
-        <Text style={styles.text}>Grass / Fighting</Text>
+        <Text style={styles.text}>Torchic</Text>
+        <View style={styles.container}>
+        <Image style={styles.sprite} source={require('../../assets/feraligatr.png')}/>
+        </View>
       </View>
     </View>
   );
@@ -49,8 +49,7 @@ const styles = StyleSheet.create({
     flex:0,
     alignContent: 'center',
     alignItems: 'center',
-    top: -50,
-    shadowRadius:25
+    bottom: -12,
   }
 
 });
