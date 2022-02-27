@@ -15,4 +15,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('pokemon/', pokemon.PokemonListCreateView.as_view()),
+    path('pokemon/<int:pk>/', pokemon.PokemonDetailView.as_view()),
 ]
