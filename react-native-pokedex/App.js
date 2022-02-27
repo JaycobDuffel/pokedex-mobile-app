@@ -10,6 +10,7 @@ export default function App() {
     <View style={styles.center}>
       <SearchBar />
       <Card pokemon="Breloom" type="grass" sprite={''}/>
+      <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
 
