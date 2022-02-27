@@ -1,8 +1,16 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
+import { useFonts } from "expo-font";
 
 
 const Card = () => {
+  const [loaded] = useFonts({
+    Montserrat: require('./assets/fonts/Montserrat.ttf'),
+  });
+
+  if (!loaded) {
+    return null;
+  }
 
   return (
     <View style={styles.card, styles.fighting}>
@@ -33,6 +41,7 @@ const styles = StyleSheet.create({
     marginBottom: 44,
     fontSize: 24,
     fontWeight: "bold",
+    fontFamily: 'Montserrat'
   },
   
   container: {
