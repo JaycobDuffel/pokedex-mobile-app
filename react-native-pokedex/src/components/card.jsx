@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    color: '#233923',
+    color: '#fff',
     marginBottom: 44,
     fontSize: 24,
     fontWeight: "bold",
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
 
   grass: {
-    backgroundColor: '#228b22',
+    backgroundColor: '#78C850',
     borderWidth: 1,
     borderColor: '#a0d7A0',
     color: '#233923',
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
 
   fire: {
-    backgroundColor: '#f47174',
+    backgroundColor: '#F08030',
     borderColor: '#512424',
     borderWidth: 1,
     color: '#233923',
@@ -60,84 +60,119 @@ const styles = StyleSheet.create({
   },  
   
   ice: {
-    backgroundColor: '#add8e6',
+    backgroundColor: '#98D8D8',
     color: '#243051',
     borderColor: '#243051',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
   water: {
-    backgroundColor: '#73C6FA',
+    backgroundColor: '#6890F0',
     color: '#243051',
     borderColor: '#243051',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
   electric: {
-    backgroundColor: '#FFF58A',
+    backgroundColor: '#F8D030',
     color: '#716E13',
     borderColor: '#716E13',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
   poison: {
-    backgroundColor: '#C4A9CE',
+    backgroundColor: '#A040A0',
     color: '#603361',
     borderColor: '#603361',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
   psychic: {
-    backgroundColor: '#B6A9CE',
-    color: '#243051',
+    backgroundColor: '#F85888',
     borderColor: '#243051',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
   dark: {
-    backgroundColor: '#A29EA9',
-    color: '#3A363A',
+    backgroundColor: '#705848',
     borderColor: '#3A363A',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
   fighting: {
-    backgroundColor: '#D4BEA7',
-    color: '#243051',
+    backgroundColor: '#C03028',
     borderColor: '#243051',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
-  water: {
-    backgroundColor: '#73C6FA',
-    color: '#243051',
+  ghost: {
+    backgroundColor: '#705898',
     borderColor: '#243051',
     borderWidth: 1,
     borderRadius: 20,
-
   },
 
-  water: {
-    backgroundColor: '#73C6FA',
-    color: '#243051',
+  normal: {
+    backgroundColor: '#A8A878',
     borderColor: '#243051',
     borderWidth: 1,
     borderRadius: 20,
+  },
 
+  ground: {
+    backgroundColor: '#E0C068',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
+  },
+
+    rock: {
+    backgroundColor: '#705898',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
+  },
+
+  fairy: {
+    backgroundColor: '#EE99AC',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
+  },
+
+  flying: {
+    backgroundColor: '#A890F0',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
+  },
+
+  bug: {
+    backgroundColor: '#B8B8D0',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
+  },
+
+  dragon: {
+    backgroundColor: '#7038F8',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
+  },
+
+  steel: {
+    backgroundColor: '#B8B8D0',
+    borderColor: '#243051',
+    borderWidth: 1,
+    borderRadius: 20,
   },
 
   sprite: {
