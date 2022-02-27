@@ -21,7 +21,7 @@ const Card = (props) => {
       <View style={styles.container}>
         <Text style={styles.text}>props.pokemon</Text>
         <View style={styles.container}>
-        <Image style={styles.sprite} source={require('../../assets/zoroark.png')}/>
+        <Image style={styles.sprite} source={props.sprite}/>
         </View>
       </View>
     </View>
