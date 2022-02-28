@@ -15,7 +15,7 @@ const Searchbar = () => {
     <View style={styles.view}>
       <SearchBar
         style={styles.searchBar}
-        placeholder="Type Here..."
+        placeholder="Search..."
         onChangeText={updateSearch}
         value={search}
         round
