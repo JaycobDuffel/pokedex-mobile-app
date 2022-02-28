@@ -21,7 +21,7 @@ const Card = (props) => {
       <View style={styles.container}>
         <Text style={styles.text}>{props.pokemon}</Text>
         <View style={styles.container}>
-        <Image style={styles.sprite} source={ props.sprite }/>
+        <Image style={styles.sprite} source={{ uri: props.sprite, width: 100, height: 100 }}/>
         </View>
       </View>
     </View>
@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
     flex:0,
     alignContent: 'center',
     alignItems: 'center',
-    bottom: -12,
+    bottom: -20,
   }
 
 });
