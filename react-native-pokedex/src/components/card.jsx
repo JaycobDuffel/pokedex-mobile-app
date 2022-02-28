@@ -5,7 +5,7 @@ import { useFonts } from "expo-font";
 
 const Card = (props) => {
   const [loaded] = useFonts({
-    Montserrat: require('./assets/fonts/Montserrat.ttf'),
+    Montserrat: require('../../assets/fonts/Montserrat.ttf')
   });
 
   if (!loaded) {
