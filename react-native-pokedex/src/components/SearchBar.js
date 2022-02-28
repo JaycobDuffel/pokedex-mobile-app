@@ -18,20 +18,28 @@ const Searchbar = () => {
         placeholder="Type Here..."
         onChangeText={updateSearch}
         value={search}
+        round
+        containerStyle={styles.searchBarContainer}
+        inputContainerStyle={styles.searchBarInput}
       />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  searchBar: {
-    borderRadius: 10,
+  searchBarContainer: {
+    backgroundColor: 'transparent',
+    borderTopWidth: 0,
+    borderBottomWidth: 0
+  },
+  searchBarInput: {
+    backgroundColor: '#e8e8e8',
   },
   view: {
+    backgroundColor: '#fff',
     position: 'absolute',
     top: Constants.statusBarHeight,
-    borderRadius: 10,
-    width: '90%',
+    width: '95%',
     margin: 10,
   },
 });
