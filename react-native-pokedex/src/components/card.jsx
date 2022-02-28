@@ -19,9 +19,9 @@ const Card = (props) => {
   return (
     <View style={styles.card, setStyles(props.type)}>
       <View style={styles.container}>
-        <Text style={styles.text}>props.pokemon</Text>
+        <Text style={styles.text}>{props.pokemon}</Text>
         <View style={styles.container}>
-        <Image style={styles.sprite} source={props.sprite}/>
+        <Image style={styles.sprite} source={ props.sprite }/>
         </View>
       </View>
     </View>
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     marginBottom: 44,
     fontSize: 24,
     fontWeight: "bold",
-    fontFamily: 'Montserrat'
+
   },
   
   container: {
