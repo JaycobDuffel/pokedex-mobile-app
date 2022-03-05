@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+
 import Card from './src/components/card';
+import SearchBar from './src/components/SearchBar';
 
 export default function App() {
 
   return (
     <View style={styles.center}>
+      <SearchBar />
       <Card pokemon="Breloom" type="grass" sprite={''}/>
       <StatusBar style="auto" />
     </View>
