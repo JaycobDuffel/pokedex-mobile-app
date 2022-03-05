@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { SearchBar } from 'react-native-elements';
 import Constants from 'expo-constants';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+
+import { SearchContext } from './Context';
 
 const Searchbar = () => {
-  const [search, setSearch] = useState("");
+  const {search, setSearch} = useContext(SearchContext);
 
   const updateSearch = (search) => {
     setSearch(search);
-    console.log(search);
   };
 
   return (
